@@ -1,0 +1,21 @@
+{
+    "name": "swayechateau/protected-user-api-test",
+    "description": "A simple api for managning users",
+    "authors": [
+        {
+            "name": "Swaye Chateau",
+            "email": "parle@swayechateau.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
